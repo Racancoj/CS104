@@ -1,10 +1,14 @@
-names = ["sam","therese","joe","marianna","marietta","tony","tina","Renne","jake","tim"]
+names = []
+namesX = 0
+while namesX != 10:
+    names = input("pealse enter name ")
+    namesX += 1
 queue = []
+
 for x in names:
     queue.append(x)
-print(queue)
 for x in range (len(names)):
-    print(queue.pop(0))
+    (queue.pop(0))
 
 
 print (queue)
